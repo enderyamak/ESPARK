@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_giris"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="30dp"
+    android:orientation="vertical"
+    tools:context="com.example.yamak.espark.GirisActivity"
+    android:background="#99FFFF"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="30dp"
+        android:layout_weight="0.17">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kullanıcı Adı:"
+            android:textSize="25dp"
+            android:textColor="@android:color/black"
+            android:layout_weight="1"
+            />
+        <EditText
+            android:layout_width="241dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/edt_kul"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Parola:"
+            android:textSize="25dp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="50dp"
+            android:layout_weight="1"
+            />
+        <EditText
+            android:layout_width="308dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/edt_pass"
+            android:layout_marginTop="50dp"
+            android:layout_weight="2"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="382dp"
+            android:layout_height="64dp"
+            android:text="GİRİŞ"
+            android:onClick="giris_yap"
+            android:id="@+id/btn_giris"
+            android:layout_marginTop="100dp"
+            android:textSize="30dp"
+            android:textColor="#0000CC"
+            android:background="#99FFFF" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="kayıtOl"
+            android:text="KAYIT OL"
+            android:textSize="30dp"
+            android:paddingLeft="128dp"
+            android:textColor="#0000CC"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

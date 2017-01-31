@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ESPARK</string>
+    <string name="api_key">AIzaSyCJwG--cw92zmxL3AnR9US3Pj1Rl_6zqa4</string>
+    <string-array name="locations">
+        <item>uskudar sahil</item>
+        <item>cengelkoy sahil</item>
+        <item>ısparta</item>
+    </string-array>
+</resources>
